@@ -26,13 +26,7 @@ public class Main extends Application {
         Button myButton = new Button("Click");
         myButton.setPrefSize(100, 35);
         myButton.setOnAction((ActionEvent ae) -> doSomething(ae));
-        myButton.getStyleClass().add("button");
         root.getChildren().add(myButton);
-
-
-
-
-
 
     }
 
